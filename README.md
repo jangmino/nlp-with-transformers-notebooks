@@ -8,6 +8,18 @@ This repository contains the example code from our O'Reilly book [Natural Langua
 
 You can run these notebooks on cloud platforms like [Google Colab](https://colab.research.google.com/) or your local machine. Note that most chapters require a GPU to run in a reasonable amount of time, so we recommend one of the cloud platforms as they come pre-installed with CUDA.
 
+### 2026년 가을 학기 실습 안내
+
+2026년 가을 학기 기준으로 다음 여섯 개 실습 자료를 Google Colab의 Python 3.13 환경에서 실행할 수 있도록 정비하고 검증했습니다: 01장 Introduction, 02장 Text Classification, 03장 Transformer Anatomy, 04장 Multilingual NER, 05장 Text Generation, 10장 Training Transformers from Scratch.
+
+실습 시 다음 사항에 주의하세요.
+
+- 새 Colab GPU 런타임에서 노트북의 첫 번째 설치 셀부터 순서대로 실행하세요.
+- 02장의 TensorFlow 실습은 이번 기본 실습 범위에서 제외했습니다.
+- 10장은 토크나이저 훈련 과정을 보여주는 Colab용 데모 설정을 기본으로 사용합니다. 원본의 대규모 데이터 처리와 장시간 사전학습 설정은 기본 실행 경로가 아닙니다.
+- 기본 실행에는 Hugging Face Hub 또는 Weights & Biases 로그인이 필요하지 않습니다. 모델 업로드와 외부 로깅은 별도 인증이 필요한 선택 과정입니다.
+- 위 여섯 개 이외의 노트북과 Colab 이외의 실행 환경은 이번 정비 범위에 포함되지 않았습니다.
+
 ### Running on a cloud platform
 
 To run these notebooks on a cloud platform, just click on one of the badges in the table below:
